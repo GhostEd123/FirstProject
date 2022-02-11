@@ -1,8 +1,11 @@
 //Program to check for even numbers using ternary operator
+//@dart=2.10
+import "dart:io";
 
 void main() {
 
-  var num = 15;
+  print('Enter a Number : ');
+  int num = int.tryParse(stdin.readLineSync());
 
   num%2==0 ? 
 
