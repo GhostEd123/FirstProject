@@ -61,7 +61,7 @@ for (num1; num1>=3;) {
   
   print('Do you want toppings? (y/n)');
   String toppings = stdin.readLineSync();
-  if (toppings = 'y' ) {
+  if (toppings == 'y' ) {
      
      //Listing out available toppings
 
@@ -83,11 +83,15 @@ for (num1; num1>=3;) {
 
   print("Please enter your Name, Phone Number, and Address");
   print("Name: ");
-  String Name = stdin.readLineSync();
+  String name = stdin.readLineSync();
   print("Phone Number: ");
-  int Phone = int.parse(stdin.readLineSync());
+  int phone = int.parse(stdin.readLineSync());
   print('Address: ');
-  String Address = stdin.readLineSync();
+  String address = stdin.readLineSync();
+
+  
+
+
 }
 
 // bool boolIn(){
